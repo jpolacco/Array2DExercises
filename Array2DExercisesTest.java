@@ -13,11 +13,6 @@ import org.junit.Rule;
  */
 public class Array2DExercisesTest {
 
- /**
- * Set a 500 millisecond timeout for each test
- */
- @Rule public static final Timeout GLOBAL_TIMOUT = new Timeout(500);
-
 // example arrays for testing
 private int[][] basic, allneg, nonsquare, negatives, rowmagic, colmagic, 
                 magic, notmagic1, notmagic2, latin, notlatin;
